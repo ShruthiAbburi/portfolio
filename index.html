@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shruthi Abburi | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: #fff;
+      color: #222;
+    }
+
+    section {
+      padding: 90px 12%;
+    }
+
+    .small-title {
+      font-size: 12px;
+      letter-spacing: 1px;
+      color: #666;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+
+    /* HERO */
+    .hero {
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 15px;
+    }
+
+    .hero h1 {
+      font-size: 28px;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+
+    .hero p {
+      font-size: 13px;
+      color: #666;
+    }
+
+    .hero button {
+      margin-top: 15px;
+      padding: 8px 24px;
+      background: none;
+      border: 1px solid #444;
+      cursor: pointer;
+      font-size: 13px;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #222;
+      color: white;
+    }
+
+    /* ABOUT */
+    .about p {
+      max-width: 650px;
+      line-height: 1.8;
+      font-size: 15px;
+      color: #444;
+    }
+
+    /* PROJECTS */
+    .project {
+      margin-bottom: 25px;
+    }
+
+    .project strong {
+      font-size: 14px;
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .project p {
+      font-size: 14px;
+      line-height: 1.8;
+      color: #444;
+      max-width: 800px;
+    }
+
+    /* EDUCATION & SKILLS */
+    .edu-skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+    }
+
+    .box h3 {
+      font-size: 16px;
+      margin-bottom: 14px;
+      font-weight: 500;
+    }
+
+    .box p {
+      font-size: 14px;
+      line-height: 1.8;
+      color: #444;
+    }
+
+    .skills-list p {
+      margin-bottom: 6px;
+    }
+
+    /* CONTACT */
+    .contact {
+      text-align: center;
+    }
+
+    .contact h2 {
+      margin-bottom: 40px;
+    }
+
+    .contact p {
+      font-size: 14px;
+      line-height: 1.9;
+      color: #444;
+    }
+
+    .socials {
+      margin-top: 25px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      font-size: 18px;
+    }
+
+    .socials i {
+      cursor: pointer;
+      color: #222;
+      transition: 0.3s;
+    }
+
+    .socials i:hover {
+      color: #777;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      section {
+        padding: 70px 8%;
+      }
+
+      .edu-skills {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+    }
+
+    .reach-btn {
+    margin-top: 15px;
+    padding: 8px 24px;
+    border: 1px solid #444;
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+    transition: 0.3s;
+    }
+
+    .reach-btn:hover {
+    background: #222;
+    color: white;
+    }
+
+    .socials a {
+    color: #222;
+    font-size: 18px;
+    transition: 0.3s;
+    }
+
+    .socials a:hover {
+    color: #777;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>SHRUTHI ABBURI</h1>
+    <p>DATA SCIENCE STUDENT</p>
+    <a href="mailto:shruthiabburi@gmail.com?subject=Portfolio Contact&body=Hi%20Shruthi,%0A%0AI%20would%20like%20to%20connect%20with%20you.">
+    <button>Reach out</button>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <p class="small-title">WHO I AM</p>
+    <h2>About Me</h2>
+
+    <p>
+      Hello, I'm Shruthi Abburi, a developer and data enthusiast dedicated to creating
+      efficient, data-driven solutions. My work focuses on leveraging technology to
+      address real-world challenges, with experience in areas such as AI, logistics
+      optimization, and sustainable system design. I strive to combine analytical
+      precision with innovative thinking to deliver impactful results.
+    </p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <strong>2024 – CROPIFY</strong>
+      <p>
+        AI-based crop optimization and crop disease detection. Built a web application
+        that suggests crops based on weather, soil and location data. Integrated ML
+        models for prediction and CNN-based image classification to detect plant diseases.
+        Fetched real-time weather and geolocation input.
+      </p>
+    </div>
+
+    <div class="project">
+      <strong>2025 – WHISPERNOTES</strong>
+      <p>
+        Speech-to-text solution for efficient note-taking. Built a multi-language
+        speech recognition system with live audio transcription. Supports voice-to-text
+        for PDF, social content, and note storage using Python and APIs.
+      </p>
+    </div>
+
+    <div class="project">
+      <strong>2025 – ECOMTRACK LOGISTICS</strong>
+      <p>
+        Food waste management app. Tracks waste from vendor to disposal using GPS and
+        machine learning predictions to optimize routes and reduce environmental impact.
+      </p>
+    </div>
+  </section>
+
+  <!-- EDUCATION & SKILLS -->
+  <section class="education">
+    <p class="small-title">WHAT I CAN DO</p>
+    <h2>Education and Skills</h2>
+
+    <div class="edu-skills">
+      <div class="box">
+        <h3>EDUCATION</h3>
+        <p>
+          New Horizon College of Engineering<br>
+          B.E CSE – Data Science
+        </p>
+      </div>
+
+      <div class="box skills-list">
+        <h3>SKILLS</h3>
+        <p>Programming Languages: Python, Java, C</p>
+        <p>Frontend: HTML, CSS, JavaScript, React</p>
+        <p>Frameworks/Tools: MySQL, Tableau, GitHub, Node.js</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>Reach out</h2>
+
+    <p>
+      Shruthi Abburi<br>
+      shruthiabburi@gmail.com<br>
+      +91 953 533 2022
+    </p>
+
+    <div class="socials">
+    <a href="https://www.instagram.com/04.shruthi/" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="https://github.com/ShruthiAbburi" target="_blank">
+        <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/shruthi-abburi/" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    </div>
+
+  </section>
+
+</body>
+</html>
