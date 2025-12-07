@@ -10,9 +10,10 @@ It includes details about my work, technical abilities, and links to my social p
 Once deployed using GitHub Pages, your site will be available at:
 
 ```
-(https://shruthiabburi.github.io/portfolio/)
+https://your-username.github.io/your-repo-name/
 ```
 
+(Replace `<your-username>` with your actual github user name.)
 (Replace `<repo-name>` with your actual repository name.)
 
 ---
