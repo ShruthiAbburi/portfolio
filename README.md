@@ -53,7 +53,6 @@ Once deployed using GitHub Pages, your site will be available at:
 ### ⭐ Contact
 
 * Email
-* Phone number
 * Social links (Instagram, LinkedIn, GitHub)
 
 ---
